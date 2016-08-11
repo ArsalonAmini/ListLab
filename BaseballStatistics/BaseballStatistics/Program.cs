@@ -10,15 +10,15 @@ namespace BaseballStatistics
     {
         static void Main(string[] args)
         {
-            List<int> baseballstatistics = new List<int>();
-            baseballstatistics.Add(6);
-            baseballstatistics.Add(7);
-            baseballstatistics.Add(8);
+            List<double> baseballstatistics = new List<double>();
+            baseballstatistics.Add(.361);
+            baseballstatistics.Add(.346);
+            baseballstatistics.Add(.540);
 
             List<string> baseballstatisticnames = new List<string>();
-            baseballstatisticnames.Add("John");
-            baseballstatisticnames.Add("Roger");
-            baseballstatisticnames.Add("Gina");
+            baseballstatisticnames.Add("Jose Altuve");
+            baseballstatisticnames.Add("Daniel Murphy");
+            baseballstatisticnames.Add("Edwin Encarnacion");
 
             for (int i=0; i<baseballstatistics.Count; i++)
             {
